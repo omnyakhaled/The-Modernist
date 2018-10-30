@@ -1,0 +1,279 @@
+body{
+  font-family: Georgia !important;
+}
+.border-head{
+  border: 5px solid #76c38f;
+}
+header{
+  background-color: #290000;
+  padding-bottom: 44px;
+  font-family: Georgia;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 38px;
+    margin-bottom: 35px;
+}
+
+.activeTab{
+  border:1px solid #76c38f;
+  border-radius: 10px;
+  background:#76c38f;
+}
+
+.navbar-brand{
+  font-size: 28px !important;
+  color: white;
+  padding: 0px !important;
+}
+
+.quote{
+  font-size: 11px;
+  color: #979797;
+}
+
+.nav li a{
+  font-size: 13px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.itemCarousel {
+
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+.banner{
+    background-color: #290000;
+    padding-bottom: 50px;
+}
+
+.imagesBanner{
+  float:right;
+  margin-right: 160px;
+}
+
+.imagesBanner img{
+  width:380px !important;
+  height: 380px !important;
+  border: 24px solid #6b6b6b;
+  border-radius: 50% !important;
+
+}
+.carouselCaption{
+  position: relative;
+  left: 200px;
+  top: 110px;
+  z-index: 10;
+  padding-top: 0;
+  float: left;
+  color:white;
+
+}
+
+.carouselCaption p{
+  font-size: 12px;
+  color: #979797;
+}
+
+#myBtn{
+  color: white;
+  background-color: #76c38f;
+  font-size: 12px;
+  border:none;
+  padding: 9px;
+  border-radius: 10px;
+
+}
+
+#more {display: none;}
+
+.mainBody{
+  background-color: #660000;
+}
+
+.service {
+    border: 1px solid white;
+    text-align: center;
+    background-color: white;
+    margin: 59px 15px 0px 15px;
+    padding: 23px 0;
+    font-family: Georgia;
+}
+
+.service:hover  {
+    border: 1px solid #76c38f;
+    background-color: #76c38f;
+    cursor: pointer;
+
+
+}
+
+
+.imgService {
+    width: 120px;
+    height: 120px;
+    border: 1px solid black;
+    margin: auto;
+    color:white;
+    background-color:#333333;
+    margin-bottom: 15px;
+}
+
+.service:hover .imgService{
+border: 1px solid white;
+color:black;
+background-color:white;
+
+}
+
+.imgService span {
+    top: 45px;
+    position: relative;
+}
+
+.bodyService h6 {
+    font-size: 32px;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+.bodyService p{
+width: 157px;
+margin: auto;
+font-size: 12px;
+
+}
+
+.service:hover .bodyService h6 , .service:hover .bodyService p{
+  color: white;
+}
+
+.latestWork{
+    padding-bottom: 60px;
+  }
+
+
+.latestWorkTitle{
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+
+
+
+
+.latestWorkTitle span{
+  color: white;
+  text-transform: uppercase;
+  position: relative;
+  top: 40px;
+  border: 1px solid #303030;
+  background-color: #303030;
+  padding: 10px;
+  font-size: 32px;
+  border-radius: 10px;
+}
+
+.latestWorkTitle hr{
+
+  border:2px solid #303030;
+}
+
+
+.latestWorkItem {
+  float: left;
+  width: 350px;
+  margin: 28px 0 0 0;
+  border:5px solid white;
+  text-align: center;
+  padding: 90px 0px 56px 0px;
+  color: white;
+  font-family: Georgia;
+  background-color: #353535;
+
+}
+
+#spanup{
+  font-size: 18px;
+
+}
+
+#spanBottom{
+  position: relative;
+  z-index: 1;
+  top: 55px;
+  display: block;
+  background: #151515;
+  font-size: 14px;
+}
+
+.latestWorkItem:hover{
+  border-color: #76c38f;
+  cursor: pointer;
+}
+
+.latestWorkItem:hover #spanBottom{
+  display: none;
+}
+
+footer{
+  background-color: #303030;
+  padding: 30px 0;
+  font-family: Georgia;
+}
+
+
+footer:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+footer ul{
+  float: left;
+  padding: 0;
+  margin-bottom: 50px;
+  list-style-position: none;
+
+  color: #979797;
+  margin-right: 52px;
+  width: 225px;
+}
+
+footer li{
+  margin: 10px 0;
+  list-style-type: none;
+  font-size: 13px;
+}
+
+footer ul a{
+text-decoration: none;
+color: #76c38f;
+font-size: 13px;
+}
+
+.moreDesign{
+border-bottom: 1px solid #383838;
+padding-top: 5px;
+}
+
+footer li:first-child{
+  margin-bottom: 30px;
+  font-size: 16px;
+  color: #eee;
+}
+
+
+footer ul:last-child{ margin-right: 0; float: right;}
+
+footer ul input{
+  margin-bottom: 20px;
+  width: 100%;
+  background-color: #222222;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+}
